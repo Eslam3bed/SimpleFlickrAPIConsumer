@@ -1,0 +1,70 @@
+.modal-space{
+
+}
+.photo-container{
+  align-items: center;
+}
+.gallary-header{
+      margin: 40px 0px 11px 10px;
+  display: flex;
+  justify-content: center;
+}
+input.search-box {
+    font-size: larger;
+    width: 50%;
+    height: 30px;
+    border: aliceblue;
+    box-shadow: 3px 3px 9px rgba(0,0,0,.5);
+    font-family: 'Indie Flower', cursive;
+    padding-left: 5px;
+}
+
+.gallary{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 85%;
+  align-items: center;
+  margin: auto;
+}
+.photo-item{
+  width: 250px;
+  height: 200px;
+  box-shadow: 6px 6px 17px rgba(0,0,0,.5);
+  margin: 11px 11px 11px 11px ;
+}
+.gallary-footer{
+display: flex;
+justify-content: space-between;
+margin: auto;
+font-size: x-large;
+width: 50%;
+}
+.page-nav {
+    cursor: pointer;
+}
+.modal-space {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0, .9);
+  transition: opacity .25s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img.modal-photo-item {
+    box-shadow: 4px 10px 40px rgba(253, 253, 253, 0.5);
+}
+@media only screen and (max-width: 600px) {
+  input.search-box {
+      width: 90%;
+  }
+  img.modal-photo-item {
+      width: 90%;
+      height: inherit;
+  }
+}
