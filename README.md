@@ -7,4 +7,4 @@ Simple Flickr API Consumer
 * `npm install` to install the dependencies
 * `npm start` to run the app locally
 
-Have a nice day
+Vist the app on [Heroku](https://flickr-rose.herokuapp.com)
