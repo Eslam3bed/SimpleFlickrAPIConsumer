@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Flickr API App",
+  "name": "Simple Flickr API Consumer",
   "icons": [
     {
       "src": "favicon.ico",

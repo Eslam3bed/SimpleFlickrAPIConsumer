@@ -40,9 +40,13 @@ componentDidMount(){
         </div>
 
         <div className='gallary-footer'>
-          <span onClick={()=> this.page(-1)}><i className="fa fa-chevron-left page-nav" aria-hidden="true"></i></span>
+          <span onClick={()=> this.page(-1)}>
+            <i className="fa fa-chevron-left page-nav" aria-hidden="true"></i>
+          </span>
           <span>{this.state.page}</span>
-          <span onClick={()=>this.page(1)}><i className="fa fa-chevron-right page-nav" aria-hidden="true"></i></span>
+          <span onClick={()=>this.page(1)}>
+            <i className="fa fa-chevron-right page-nav" aria-hidden="true"></i>
+          </span>
         </div>
       </div>
     );
